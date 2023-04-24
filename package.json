@@ -1,0 +1,25 @@
+{
+  "name": "curriculo-dev-backend",
+  "version": "1.0.0",
+  "description": "Curriculo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "htttps://github.com/petronio5/curriculo-dev-backend.git"
+  },
+  "author": "Petronio",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9",
+    "consign": "^0.1.6",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
