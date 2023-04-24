@@ -10,7 +10,7 @@ module.exports = () => {
 
   app.use(express.json());
 
-  app.use(cors());
+  app.use(cors()); //use cors middleware
 
   consign().then("data").then("controllers").then("routes").into(app);
 
